@@ -5,7 +5,7 @@ import authRouter from "./src/routes/authRoutes.js";
 import cartRouter from "./src/routes/cartRoutes.js";
 import orderRouter from "./src/routes/orderRoutes.js"
 import dotenv from "dotenv";
-import { connect } from "./configs/database.js";
+import { connect } from "./src/configs/database.js";
 
 const app = express();
 app.use(express.json());
